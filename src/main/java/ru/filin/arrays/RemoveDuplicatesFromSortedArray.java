@@ -3,9 +3,6 @@ package ru.filin.arrays;
 public class RemoveDuplicatesFromSortedArray {
 
     public int removeDuplicates(int[] nums) {
-//        if (nums.length < 2 || nums.length == 2 && nums[0] != nums[1]) {
-//            return nums.length;
-//        }
         if (nums.length < 2) {
             return nums.length;
         }
